@@ -8,7 +8,7 @@ A Homage to Windows 98 Shell Environment
 
 ### Implementation Goals
 
-:X: Taskbar
+:x: Taskbar
 
 :x: Quick Launch
 
