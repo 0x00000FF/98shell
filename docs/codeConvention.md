@@ -15,9 +15,12 @@ Originally, Microsoft developers used Hungarian Notation to develop their produc
  
 ## Braces
 
+Braces should be placed in [Allman style](https://en.wikipedia.org/wiki/Indentation_style#Allman_style). However, there's a exception for lambda expressions. For example, If a lambda expression is passed as argument of specific function, then K&R style should be applied.
 
 ## Spaces
 
+Tab indent is not recommended, but use space indent. Every indents should have 4 spaces.
+
 ## Comments
 
-No comments are allowed for describing specific logic. Real programmers should talk with codes, not comment. Other purposes such as 
+No comments are allowed for describing specific logic. Real programmer talks with codes, not comment. Other purposes such as Doxygen comments of License header is allowed.
