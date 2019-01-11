@@ -1,14 +1,13 @@
-﻿#include <Windows.h>
+﻿#include <Windows.hpp>
 
 using namespace std;
 
 int APIENTRY  wWinMain(
-	HINSTANCE instance, 
-	HINSTANCE prevInstance,
-	LPWSTR    cmdLine, 
-	int       cmdShow
+    HINSTANCE instance, 
+    HINSTANCE prevInstance,
+    LPWSTR    cmdLine, 
+    int       cmdShow
 )
 {
-	
-	
+    
 }
