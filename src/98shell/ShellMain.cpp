@@ -1,7 +1,14 @@
-#include <Windows.h>
+﻿#include <Windows.h>
 
-int WINAPI WinMain(HINSTANCE instance, HINSTANCE hPrevInstance, LPSTR argumenets, int nCmdShow)
+using namespace std;
+
+int APIENTRY  wWinMain(
+	HINSTANCE instance, 
+	HINSTANCE prevInstance,
+	LPWSTR    cmdLine, 
+	int       cmdShow
+)
 {
-	MessageBox(NULL, "HELLO", "HELLO", MB_ICONINFORMATION);
-	return 0;
+	
+	
 }
