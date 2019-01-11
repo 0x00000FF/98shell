@@ -23,4 +23,4 @@ Tab indent is not recommended, but use space indent. Every indents should have 4
 
 ## Comments
 
-No comments are allowed for describing specific logic. Real programmer talks with codes, not comment. Other purposes such as Doxygen comments of License header is allowed.
+No comments are allowed for describing specific logic. Real programmer talks with codes, not comment. Other purposes such as Doxygen comments or License header, Deprecation descriptor is allowed.
