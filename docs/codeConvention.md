@@ -4,7 +4,7 @@ This document describes about coding convention for 98Shell project. Anyone who 
 
 ## Naming
 
-Originally, Microsoft developers used Hungarian Notation to develop their products at early time. Bunch of legacy codes including Windows API are written in the notation, however, we won't use it. There are no `lpsz` or `wc` or even `dw` and `aul`. We will code in this way:
+Originally, Microsoft developers used Hungarian Notation to develop their products at early time. Bunch of legacy codes including Windows API are written in the notation, however, we won't use it. There are no `lpsz` or `wc` or even `dw` or `aul` In short, Never use capital letter of the type name as a prefix. We will name in this way:
 
  * For Namespace and Class, Global functions: **PascalCase**
  * For Public members, local variables, parameters : **camelCase**
@@ -18,3 +18,6 @@ Originally, Microsoft developers used Hungarian Notation to develop their produc
 
 ## Spaces
 
+## Comments
+
+No comments are allowed for describing specific logic. Real programmers should talk with codes, not comment. Other purposes such as 
