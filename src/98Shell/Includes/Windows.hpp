@@ -21,6 +21,7 @@ namespace Windows
     using Size        =   SIZE;
     using Rectangle   =   RECT;
     using Point       =   POINT;
+    using Color       =   u32;
 }
 
 #include "Windows.Flags.hpp"

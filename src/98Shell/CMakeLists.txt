@@ -4,7 +4,8 @@
 add_executable (98Shell WIN32 "ShellMain.cpp"
 						      "Includes/Windows.hpp"
 							  "Includes/Windows.Flags.hpp"
-							  "Includes/Windows.WindowBase.hpp")
+							  "Includes/Windows.WindowBase.hpp"
+							  "Includes/Windows.WindowStyle.hpp")
 
 target_include_directories(98Shell PUBLIC "Includes")
 
