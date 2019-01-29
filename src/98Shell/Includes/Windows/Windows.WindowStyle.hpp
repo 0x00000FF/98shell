@@ -1,4 +1,6 @@
-#include <Windows.hpp>
+#pragma once
+
+#include <Windows/Windows.hpp>
 
 namespace Windows
 {

@@ -1,4 +1,4 @@
-﻿#include <Windows.hpp>
+﻿#include <Windows/Windows.hpp>
 
 using namespace std;
 
@@ -9,5 +9,5 @@ int APIENTRY  wWinMain(
     int       cmdShow
 )
 {
-    
+    return 0;
 }

@@ -1,12 +1,16 @@
 ﻿cmake_minimum_required (VERSION 3.8)
 
-# Add source to this project's executable.
+add_definitions( -DUNICODE=true )
+
 add_executable (98Shell WIN32 "ShellMain.cpp"
-						      "Includes/Windows.hpp"
-							  "Includes/Windows.Flags.hpp"
-							  "Includes/Windows.WindowBase.hpp"
-							  "Includes/Windows.WindowStyle.hpp")
+							  "Windows/Windows.WindowBase.cpp"
+						      "Shell/Taskbar.cpp"
+							  "Includes/Taskbar.hpp"
+							  "Includes/Windows/Windows.hpp"
+							  "Includes/Windows/Windows.Flags.hpp"
+							  "Includes/Windows/Windows.WindowBase.hpp"
+							  "Includes/Windows/Windows.WindowHook.hpp"
+							  "Includes/Windows/Windows.WindowMessage.hpp"
+							  "Includes/Windows/Windows.WindowStyle.hpp")
 
 target_include_directories(98Shell PUBLIC "Includes")
-
-# TODO: Add tests and install targets if needed.

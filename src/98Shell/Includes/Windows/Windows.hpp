@@ -1,7 +1,23 @@
 #pragma once
 
+#ifndef UNICODE
+#define UNICODE true
+#endif
+
+#define BUILDDATE  __DATE__
+#define BUILDTIME  __TIME__
+
+#define WIN32_MEAN_AND_MEAN
+
 #include <cstdint>
 #include <Windows.h>
+
+#pragma region Undef Predefined-Macros
+// min(a,b) and max(a,b) are macros defined in Windows.h,
+// however, it collides with std::max and std::min so these have to be removed.
+#undef min
+#undef max
+#pragma endregion
 
 namespace Windows 
 {
@@ -25,4 +41,6 @@ namespace Windows
 }
 
 #include "Windows.Flags.hpp"
+#include "Windows.WindowStyle.hpp"
+#include "Windows.WindowMessage.hpp"
 #include "Windows.WindowBase.hpp"
