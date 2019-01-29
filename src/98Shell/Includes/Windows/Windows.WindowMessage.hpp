@@ -6,34 +6,28 @@ namespace Windows
 {
     enum class WindowMessage : u32
     {
-        Null             = 0,
-        Create           = 1,
-        Destroy          = 2,
-        Move             = 3,
-        Size             = 5,
-        Activate         = 6,
-        SetFocus         = 7,
-        KlllFocus        = 8,
-        Enable           = 10,
-        SetRedraw        = 11,
-        SetText          = 12,
-        GetText          = 13,
-        GetTextLength    = 14,
-        Paint            = 15,
-        Close            = 16,
-        QueryEndSession  = 17,
-        Quit             = 18,
-        QueryOpen        = 19,
-        EraseBackground  = 20,
-        SysColorChange   = 21,
-        EndSession       = 22,
-        ShowWindow       = 24,
+        Null             = WM_NULL,
+        Create           = WM_CREATE,
+        Destroy          = WM_DESTROY,
+        Move             = WM_MOVE,
+        Size             = WM_SIZE,
+        Activate         = WM_ACTIVATE,
+        SetFocus         = WM_SETFOCUS,
+        KlllFocus        = WM_KILLFOCUS,
+        Enable           = WM_ENABLE,
+        SetRedraw        = WM_SETREDRAW,
+        SetText          = WM_SETTEXT,
+        GetText          = WM_GETTEXT,
+        GetTextLength    = WM_GETTEXTLENGTH,
+        Paint            = WM_PAINT,
+        Close            = WM_CLOSE,
+        QueryEndSession  = WM_QUERYENDSESSION,
+        Quit             = WM_QUIT,
+        QueryOpen        = WM_QUERYOPEN,
+        EraseBackground  = WM_ERASEBKGND,
+        SysColorChange   = WM_SYSCOLORCHANGE,
+        EndSession       = WM_ENDSESSION,
+        ShowWindow       = WM_SHOWWINDOW,
 
     };
-
-    #if UNICODE
-    using OnCreateArgs  = CREATESTRUCTW;
-    #else
-    using OnCreateArgs  = CREATESTRUCTA;
-    #endif
 }
