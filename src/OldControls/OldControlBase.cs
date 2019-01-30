@@ -16,6 +16,13 @@ namespace _98Shell.OldControls
         private static Pen bottomLinePen   = new Pen( Color.FromArgb(128, 128, 128));
         private static Pen bottomLinePen2  = new Pen( Color.Black );
         
+        private static void SwitchPen(ref Pen left, ref Pen right)
+        {
+            Pen _temp = left;
+            left = right;
+            right = _temp;
+        }
+
         public OldControlBase()
         {
             this.BackColor = Color.FromArgb(192, 192, 192);
