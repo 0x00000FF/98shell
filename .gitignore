@@ -9,3 +9,9 @@ src/.vs/src/v15/ipch/AutoPCH/6aeed7a05ab3795f/WINDOWS.ipch
 src/.vs/src/v15/ipch/AutoPCH/b1d9711a59892040/WINDOWS.WINDOWBASE.ipch
 src/.vs/src/v15/ipch/AutoPCH/b62be779ca18b462/WINDOWS.ipch
 *.ipch
+src/.vs/config/applicationhost.config
+src/98Shell/98Shell/.vs/98Shell/v15/.suo
+src/98Shell/98Shell/.vs/98Shell/v15/Server/sqlite3/db.lock
+src/98Shell/98Shell/.vs/98Shell/v15/Server/sqlite3/storage.ide
+src/98Shell/98Shell/.vs/98Shell/v15/Server/sqlite3/storage.ide-shm
+src/98Shell/98Shell/.vs/98Shell/v15/Server/sqlite3/storage.ide-wal

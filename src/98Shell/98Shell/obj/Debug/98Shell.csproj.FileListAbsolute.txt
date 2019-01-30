@@ -1,0 +1,10 @@
+C:\Users\patche\Documents\GitHub\98shell\src\98Shell\98Shell\bin\Debug\98Shell.exe.config
+C:\Users\patche\Documents\GitHub\98shell\src\98Shell\98Shell\bin\Debug\98Shell.exe
+C:\Users\patche\Documents\GitHub\98shell\src\98Shell\98Shell\bin\Debug\98Shell.pdb
+C:\Users\patche\Documents\GitHub\98shell\src\98Shell\98Shell\obj\Debug\98Shell.csprojAssemblyReference.cache
+C:\Users\patche\Documents\GitHub\98shell\src\98Shell\98Shell\obj\Debug\_98Shell.Properties.Resources.resources
+C:\Users\patche\Documents\GitHub\98shell\src\98Shell\98Shell\obj\Debug\_98Shell.Taskbar.resources
+C:\Users\patche\Documents\GitHub\98shell\src\98Shell\98Shell\obj\Debug\98Shell.csproj.GenerateResource.cache
+C:\Users\patche\Documents\GitHub\98shell\src\98Shell\98Shell\obj\Debug\98Shell.csproj.CoreCompileInputs.cache
+C:\Users\patche\Documents\GitHub\98shell\src\98Shell\98Shell\obj\Debug\98Shell.exe
+C:\Users\patche\Documents\GitHub\98shell\src\98Shell\98Shell\obj\Debug\98Shell.pdb
