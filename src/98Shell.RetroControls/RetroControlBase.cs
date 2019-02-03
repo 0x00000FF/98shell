@@ -1,33 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-namespace _98Shell.OldControls
+namespace W98Shell.RetroControls
 {
-    class OldControlBase : Panel
+    [ToolboxItem(true)]
+    [Description("RetroControl Base"), Category("98Shell.RetroControl")]
+    public class RetroControlBase : UserControl
     {
-        private static Pen topLinePen      = new Pen( Color.White );
-        private static Pen topLinePen2     = new Pen( Color.FromArgb(192, 192, 192));
-        private static Pen bottomLinePen   = new Pen( Color.FromArgb(128, 128, 128));
-        private static Pen bottomLinePen2  = new Pen( Color.Black );
-        
-        private static void SwitchPen(ref Pen left, ref Pen right)
-        {
-            Pen _temp = left;
-            left = right;
-            right = _temp;
-        }
+        protected static Pen topLinePen = new Pen(Color.White);
+        protected static Pen topLinePen2 = new Pen(Color.FromArgb(192, 192, 192));
+        protected static Pen bottomLinePen = new Pen(Color.FromArgb(128, 128, 128));
+        protected static Pen bottomLinePen2 = new Pen(Color.Black);
 
-        public OldControlBase()
+        public RetroControlBase()
         {
             this.BackColor = Color.FromArgb(192, 192, 192);
         }
-        
+
         protected override void OnPaint(PaintEventArgs e)
         {
             base.OnPaint(e);

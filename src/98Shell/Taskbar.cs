@@ -8,13 +8,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _98Shell
+
+
+namespace W98Shell
 {
     public partial class Taskbar : Form
     {
+        private static bool firstRun = false;
+
         public Taskbar()
         {
             InitializeComponent();
+
+            if ( WinAPI.User32.SetWindowsHook(0, IntPtr.Zero) == IntPtr.Zero )
+            {
+
+            }
         }
 
         private void TestSize(object sender, EventArgs e)

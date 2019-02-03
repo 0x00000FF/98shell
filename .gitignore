@@ -1,6 +1,12 @@
+.vs
 
-src/.vs
-src/obj
-src/bin
+src/98Shell/.vs
+src/98Shell/obj
+src/98Shell/bin
+
+src/98Shell.RetroControls/.vs
+src/98Shell.RetroControls/obj
+src/98Shell.RetroControls/bin
+
 *.ipch
 *.ide
