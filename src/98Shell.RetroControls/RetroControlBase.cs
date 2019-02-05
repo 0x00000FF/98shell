@@ -30,44 +30,44 @@ namespace W98Shell.RetroControls
             var g = this.CreateGraphics();
             var thisRect = this.DisplayRectangle;
 
-            var LineStart = new Point(thisRect.X, thisRect.Y);
-            var LineEnd = new Point(thisRect.X + this.Width - 1, thisRect.Y);
+            var lineStart = new Point(thisRect.X, thisRect.Y);
+            var lineEnd = new Point(thisRect.X + this.Width - 1, thisRect.Y);
 
-            g.DrawLine(topLinePen, LineStart, LineEnd);
+            g.DrawLine(topLinePen, lineStart, lineEnd);
 
-            LineEnd.X = thisRect.X;
-            LineEnd.Y = thisRect.Y + this.Height - 1;
-            g.DrawLine(topLinePen, LineStart, LineEnd);
+            lineEnd.X = thisRect.X;
+            lineEnd.Y = thisRect.Y + this.Height - 1;
+            g.DrawLine(topLinePen, lineStart, lineEnd);
 
-            LineStart.X = thisRect.X + 1;
-            LineStart.Y = thisRect.Y + 1;
-            LineEnd.X = thisRect.X + this.Width - 2;
-            LineEnd.Y = LineStart.Y;
-            g.DrawLine(topLinePen2, LineStart, LineEnd);
+            lineStart.X = thisRect.X + 1;
+            lineStart.Y = thisRect.Y + 1;
+            lineEnd.X = thisRect.X + this.Width - 2;
+            lineEnd.Y = lineStart.Y;
+            g.DrawLine(topLinePen2, lineStart, lineEnd);
 
-            LineEnd.X = LineStart.X;
-            LineEnd.Y = thisRect.Y + this.Height - 2;
-            g.DrawLine(topLinePen2, LineStart, LineEnd);
+            lineEnd.X = lineStart.X;
+            lineEnd.Y = thisRect.Y + this.Height - 2;
+            g.DrawLine(topLinePen2, lineStart, lineEnd);
 
-            LineStart.X = thisRect.X + this.Width - 2;
-            LineStart.Y = thisRect.Y + 1;
-            LineEnd.X = LineStart.X;
-            g.DrawLine(bottomLinePen, LineStart, LineEnd);
+            lineStart.X = thisRect.X + this.Width - 2;
+            lineStart.Y = thisRect.Y + 1;
+            lineEnd.X = lineStart.X;
+            g.DrawLine(bottomLinePen, lineStart, lineEnd);
 
-            LineStart = LineEnd;
-            LineEnd.X = thisRect.X + 1;
-            LineEnd.Y = thisRect.Y + this.Height - 2;
-            g.DrawLine(bottomLinePen, LineStart, LineEnd);
+            lineStart = lineEnd;
+            lineEnd.X = thisRect.X + 1;
+            lineEnd.Y = thisRect.Y + this.Height - 2;
+            g.DrawLine(bottomLinePen, lineStart, lineEnd);
 
-            LineStart.X = thisRect.X + this.Width - 1;
-            LineStart.Y = thisRect.Y - 1;
-            LineEnd.X = LineStart.X;
-            LineEnd.Y = LineStart.Y + this.Height;
-            g.DrawLine(bottomLinePen2, LineStart, LineEnd);
+            lineStart.X = thisRect.X + this.Width - 1;
+            lineStart.Y = thisRect.Y - 1;
+            lineEnd.X = lineStart.X;
+            lineEnd.Y = lineStart.Y + this.Height;
+            g.DrawLine(bottomLinePen2, lineStart, lineEnd);
 
-            LineStart = LineEnd;
-            LineEnd.X = thisRect.X;
-            g.DrawLine(bottomLinePen2, LineStart, LineEnd);
+            lineStart = lineEnd;
+            lineEnd.X = thisRect.X;
+            g.DrawLine(bottomLinePen2, lineStart, lineEnd);
         }
 
         protected override void OnBackColorChanged(EventArgs e)
