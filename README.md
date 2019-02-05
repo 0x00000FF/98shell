@@ -8,7 +8,7 @@ A Hommage to Windows 98 Shell Environment
 
 ### Code Convention
 
-**NO HUNGARIAN NOTATION!** Every souce codes must be written in camelCase, for maintenance purposes. The aim of this project is not only for rebirth of Windows 9x Shell, but also to build usable application. If you want to detail information, [See this.](docs/codeConvention.md)
+**NO HUNGARIAN NOTATION!** Every souce codes must be written in camelCase, for maintenance purposes. The aim of this project is not only for rebirth of Windows 9x Shell, but also to build usable application. If you want detailed information, [See this.](docs/codeConvention.md)
 
 ### Implementation Goals
 
